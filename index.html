@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ines Mecheter | AI & ML Engineer Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#0f172a',
+                            card: '#1e293b',
+                            accent: '#38bdf8',
+                            text: '#94a3b8'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-dark text-slate-100 font-sans antialiased selection:bg-brand-accent selection:text-slate-900">
+
+    <!-- Navigation Bar -->
+    <nav class="fixed top-0 w-full z-50 bg-brand-dark/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold tracking-tight text-white">Ines<span class="text-brand-accent">.AI</span></a>
+            <div class="flex space-x-6 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-brand-accent transition">About</a>
+                <a href="#projects" class="hover:text-brand-accent transition">Projects</a>
+                <a href="#skills" class="hover:text-brand-accent transition">Skills</a>
+                <a href="#contact" class="hover:text-brand-accent transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center pt-20 px-6 max-w-6xl mx-auto">
+        <div class="space-y-6 max-w-3xl">
+            <div class="inline-block px-3 py-1 bg-brand-accent/10 border border-brand-accent/20 rounded-full text-brand-accent text-xs font-semibold tracking-wide">
+                MASTER 1 ARTIFICIAL INTELLIGENCE
+            </div>
+            <h1 class="text-4xl sm:text-6xl font-extrabold text-white tracking-tight leading-tight">
+                Hi, I'm Ines Mecheter.<br/>
+                <span class="text-brand-accent">Building AI & ML</span> solutions from scratch.
+            </h1>
+            <p class="text-slate-400 text-lg leading-relaxed">
+                Master’s student in AI at the University of Jijel. Focused on fundamental Machine Learning algorithm development, numerical optimization, and practical software engineering.
+            </p>
+            <div class="flex flex-wrap gap-4 pt-4">
+                <a href="#projects" class="px-6 py-3 bg-brand-accent text-slate-900 font-semibold rounded-lg shadow-lg hover:bg-sky-300 transition">
+                    View Projects
+                </a>
+                <a href="https://github.com/imch2142" target="_blank" class="px-6 py-3 border border-slate-700 bg-brand-card hover:bg-slate-800 text-white font-medium rounded-lg transition flex items-center gap-2">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 border-t border-slate-800/80">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+                <span class="text-brand-accent">#</span> About Me
+            </h2>
+            <div class="grid md:grid-cols-3 gap-8 text-slate-300 leading-relaxed">
+                <div class="md:col-span-2 space-y-4">
+                    <p>
+                        I specialize in understanding Machine Learning architectures from the ground up rather than relying solely on black-box frameworks. My recent work focuses on manual matrix vectorization, mathematical optimization, and gradient descent routines using standard numerical libraries.
+                    </p>
+                    <p>
+                        Alongside foundational ML engineering, I possess full-stack software development experience across desktop, backend, and frontend environments.
+                    </p>
+                </div>
+                <div class="bg-brand-card p-6 rounded-xl border border-slate-800 space-y-3">
+                    <h3 class="text-white font-semibold mb-2">Education & Status</h3>
+                    <p class="text-sm"><strong class="text-slate-100">Degree:</strong> Master 1 in Artificial Intelligence</p>
+                    <p class="text-sm"><strong class="text-slate-100">Institution:</strong> University of Jijel</p>
+                    <p class="text-sm"><strong class="text-slate-100">Location:</strong> Jijel, Algeria</p>
+                    <p class="text-sm"><strong class="text-slate-100">Target Role:</strong> AI / ML Engineering Intern</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 border-t border-slate-800/80">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-2xl font-bold text-white mb-10 flex items-center gap-3">
+                <span class="text-brand-accent">#</span> Featured Projects
+            </h2>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Project 1: ML From Scratch -->
+                <div class="bg-brand-card rounded-xl p-6 border border-slate-800 flex flex-col justify-between hover:border-brand-accent/50 transition">
+                    <div>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-xs font-mono text-brand-accent bg-brand-accent/10 px-2.5 py-1 rounded">Python / NumPy</span>
+                            <a href="https://github.com/Ines-AI2004" target="_blank" class="text-slate-400 hover:text-white"><i class="fab fa-github text-xl"></i></a>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">ML Algorithms From Scratch</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            Implemented binary Logistic Regression and Single/Multiple Linear Regression models without ML libraries. Built custom Z-score normalization, Sigmoid functions, and log-loss functions with numerical boundary clipping.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 pt-4 text-xs font-mono text-slate-400">
+                        <span>#Vectorization</span>
+                        <span>#GradientDescent</span>
+                        <span>#NumPy</span>
+                    </div>
+                </div>
+
+                <!-- Project 2: Notaty App -->
+                <div class="bg-brand-card rounded-xl p-6 border border-slate-800 flex flex-col justify-between hover:border-brand-accent/50 transition">
+                    <div>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-xs font-mono text-brand-accent bg-brand-accent/10 px-2.5 py-1 rounded">Full-Stack Node.js</span>
+                            <div class="flex gap-3 text-slate-400">
+                                <a href="https://github.com/imch2142/notaty" target="_blank" class="hover:text-white"><i class="fab fa-github text-xl"></i></a>
+                                <a href="https://imch2142.github.io/notaty/" target="_blank" class="hover:text-white"><i class="fas fa-external-link-alt text-lg"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Notaty App</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            A production-ready note-taking web application backed by MongoDB. Managed full CRUD flow with Express.js backend hosted on Render and front-end interface deployed on GitHub Pages.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 pt-4 text-xs font-mono text-slate-400">
+                        <span>#Express.js</span>
+                        <span>#MongoDB</span>
+                        <span>#REST_API</span>
+                    </div>
+                </div>
+
+                <!-- Project 3: Apartment Management App -->
+                <div class="bg-brand-card rounded-xl p-6 border border-slate-800 flex flex-col justify-between hover:border-brand-accent/50 transition">
+                    <div>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-xs font-mono text-brand-accent bg-brand-accent/10 px-2.5 py-1 rounded">Desktop Application</span>
+                            <a href="https://github.com/imch2142/MyTkinter_Project" target="_blank" class="text-slate-400 hover:text-white"><i class="fab fa-github text-xl"></i></a>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Apartment Management App</h3>
+                        <p class="text-slate-400 text-sm mb-4">
+                            Desktop software built using OOP principles to streamline tenant directory records, resident information, and payment logs integrated directly with a local MySQL relational database.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 pt-4 text-xs font-mono text-slate-400">
+                        <span>#Python</span>
+                        <span>#MySQL</span>
+                        <span>#Tkinter_Kivy</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 border-t border-slate-800/80">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-2xl font-bold text-white mb-10 flex items-center gap-3">
+                <span class="text-brand-accent">#</span> Technical Skills
+            </h2>
+
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <div class="bg-brand-card p-6 rounded-xl border border-slate-800">
+                    <h3 class="text-white font-semibold mb-3 flex items-center gap-2">
+                        <i class="fas fa-brain text-brand-accent"></i> AI & Machine Learning
+                    </h3>
+                    <ul class="text-sm text-slate-400 space-y-2 font-mono">
+                        <li>• Python / NumPy / Pandas</li>
+                        <li>• OpenCV (Computer Vision)</li>
+                        <li>• Scikit-Learn</li>
+                        <li>• Custom Model Architecture</li>
+                    </ul>
+                </div>
+
+                <div class="bg-brand-card p-6 rounded-xl border border-slate-800">
+                    <h3 class="text-white font-semibold mb-3 flex items-center gap-2">
+                        <i class="fas fa-code text-brand-accent"></i> Web Development
+                    </h3>
+                    <ul class="text-sm text-slate-400 space-y-2 font-mono">
+                        <li>• Node.js / Express.js</li>
+                        <li>• FastAPI / Python</li>
+                        <li>• React / JavaScript</li>
+                        <li>• HTML5 / CSS3 / Tailwind</li>
+                    </ul>
+                </div>
+
+                <div class="bg-brand-card p-6 rounded-xl border border-slate-800">
+                    <h3 class="text-white font-semibold mb-3 flex items-center gap-2">
+                        <i class="fas fa-database text-brand-accent"></i> Databases & Tools
+                    </h3>
+                    <ul class="text-sm text-slate-400 space-y-2 font-mono">
+                        <li>• MySQL / Relational DBs</li>
+                        <li>• MongoDB / NoSQL</li>
+                        <li>• Docker / Version Control</li>
+                        <li>• Git / GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <footer id="contact" class="py-16 border-t border-slate-800 bg-slate-950/50">
+        <div class="max-w-6xl mx-auto px-6 text-center space-y-6">
+            <h2 class="text-2xl font-bold text-white">Let's Connect</h2>
+            <p class="text-slate-400 max-w-md mx-auto text-sm">
+                Open to Machine Learning internships, technical collaborations, and software engineering opportunities.
+            </p>
+            <div class="flex justify-center space-x-6 text-xl text-slate-400">
+                <a href="https://www.linkedin.com/in/ines-mecheter-94146a320/" target="_blank" class="hover:text-brand-accent transition"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/imch2142" target="_blank" class="hover:text-brand-accent transition"><i class="fab fa-github"></i></a>
+                <a href="mailto:imch@gmail.com" class="hover:text-brand-accent transition"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p class="text-xs text-slate-600 font-mono pt-4">
+                &copy; 2026 Ines Mecheter. Designed for AI & ML Excellence.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
