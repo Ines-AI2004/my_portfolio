@@ -2,7 +2,7 @@
 
 Welcome to the source repository for my personal engineering portfolio! This single-page application highlights my core projects in **Machine Learning (from scratch)**, **Computer Vision**, and **Full-Stack Application Development**.
 
-👉 **Live Demo:** [[https://ines-ai2004.github.io/my_portfolio/](https://ines-ai2004.github.io/my_portfolio/)](https://imch2142.github.io/ines-portfolio/) *(Replace with your exact GitHub Pages link)*
+👉 **Live Demo:** [[my_portfolio](https://ines-ai2004.github.io/my_portfolio/)](https://imch2142.github.io/ines-portfolio/) *(Replace with your exact GitHub Pages link)*
 
 ---
 
