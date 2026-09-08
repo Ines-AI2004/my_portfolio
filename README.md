@@ -18,7 +18,7 @@ I am a **Master 1 Artificial Intelligence student** at the **University of Jijel
    - Built binary Logistic Regression and Single/Multiple Linear Regression engines without `Scikit-Learn`.
    - Applied manual matrix vectorization, Z-score normalization, Sigmoid activations, and numerically stable Binary Cross-Entropy (Log Loss) with boundary clipping (`np.clip`).
 
-2. **Notaty App** `Node.js` `Express` `MongoDB` `JavaScript`
+2. **Task managment web application**  `Java 21`, `Spring Boot 3`,` React.js`, `Vite`, `H2 Database`,` RESTFull API`
    - Full-stack task managment web application featuring complete CRUD functionality, persistent storage via H2, and deployed architecture using Render & Vercel.
 
 
