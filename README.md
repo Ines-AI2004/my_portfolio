@@ -19,17 +19,16 @@ I am a **Master 1 Artificial Intelligence student** at the **University of Jijel
    - Applied manual matrix vectorization, Z-score normalization, Sigmoid activations, and numerically stable Binary Cross-Entropy (Log Loss) with boundary clipping (`np.clip`).
 
 2. **Notaty App** `Node.js` `Express` `MongoDB` `JavaScript`
-   - Full-stack note-taking web application featuring complete CRUD functionality, persistent storage via MongoDB, and deployed architecture using Render & GitHub Pages.
+   - Full-stack task managment web application featuring complete CRUD functionality, persistent storage via H2, and deployed architecture using Render & Vercel.
 
-3. **Apartment Management App** `Python` `Tkinter` `Kivy` `MySQL`
-   - Desktop application engineered with Object-Oriented Programming (OOP) principles to handle tenant records and billing operations with an integrated relational database.
+
 
 ---
 
 ## 🛠️ Technical Stack & Tools
 
 - **Artificial Intelligence / ML:** Python, NumPy, Pandas, OpenCV, Scikit-Learn
-- **Web Development:** FastAPI, Node.js, Express.js, React, JavaScript, HTML5, CSS3, Tailwind CSS
+- **Web Development:** Spring boot 3, React, JavaScript, HTML5, CSS3
 - **Databases & Infrastructure:** MySQL, MongoDB, Docker, Git, GitHub Actions
 
 ---
