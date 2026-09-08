@@ -29,7 +29,7 @@ I am a **Master 1 Artificial Intelligence student** at the **University of Jijel
 
 - **Artificial Intelligence / ML:** Python, NumPy, Pandas, OpenCV, Scikit-Learn
 - **Web Development:** Spring boot 3, React, JavaScript, HTML5, CSS3
-- **Databases & Infrastructure:** MySQL, MongoDB, Docker, Git, GitHub Actions
+- **Databases & Infrastructure:** MySQL, PostgreSQL, Docker, Git, GitHub Actions
 
 ---
 
@@ -39,4 +39,4 @@ Because this portfolio uses a lightweight, static architecture with Tailwind CSS
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/imch2142/ines-portfolio.git](https://github.com/imch2142/ines-portfolio.git)
+   git clone [https://github.com/imch2142/ines-portfolio.git]
