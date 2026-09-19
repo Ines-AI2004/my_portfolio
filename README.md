@@ -39,4 +39,4 @@ Because this portfolio uses a lightweight, static architecture with Tailwind CSS
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/imch2142/ines-portfolio.git]
+   git clone https://github.com/imch2142/ines-portfolio.git
