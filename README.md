@@ -1,4 +1,4 @@
-# 🌐 Personal Portfolio — Ines Mecheter
+#  Personal Portfolio — Ines Mecheter
 
 Welcome to the source repository for my personal engineering portfolio! This single-page application highlights my core projects in **Machine Learning (from scratch)**, **Computer Vision**, and **Full-Stack Application Development**.
 
@@ -6,13 +6,13 @@ Welcome to the source repository for my personal engineering portfolio! This sin
 
 ---
 
-## 👩‍💻 About Me
+##  About Me
 
 I am a **Master 1 Artificial Intelligence student** at the **University of Jijel** with a foundational background in Computer Science. My primary academic and technical focus is understanding Machine Learning models from the ground up—implementing core linear algebra operations, gradient descent optimizations, and loss functions manually rather than relying strictly on top-level frameworks.
 
 ---
 
-## 🚀 Featured Projects Included
+##  Featured Projects Included
 
 1. **Machine Learning Algorithms From Scratch** `Python` `NumPy` `Pandas`
    - Built binary Logistic Regression and Single/Multiple Linear Regression engines without `Scikit-Learn`.
@@ -25,7 +25,7 @@ I am a **Master 1 Artificial Intelligence student** at the **University of Jijel
 
 ---
 
-## 🛠️ Technical Stack & Tools
+##  Technical Stack & Tools
 
 - **Artificial Intelligence / ML:** Python, NumPy, Pandas, OpenCV, Scikit-Learn
 - **Web Development:** Spring boot 3, React, JavaScript, HTML5, CSS3
@@ -33,7 +33,7 @@ I am a **Master 1 Artificial Intelligence student** at the **University of Jijel
 
 ---
 
-## 💻 Local Setup & Development
+##  Local Setup & Development
 
 Because this portfolio uses a lightweight, static architecture with Tailwind CSS via CDN, you don't need any complex build tools or local server installations to view or modify it:
 
